@@ -1,15 +1,14 @@
 package com.company;
 
-
 public class Car implements Cloneable {
 
     private static String nameCar;
     private static String nameOfModel;
     private static String colorCar;
-    private static int maxSpeed;
-    private static int yearOfManufacture;
+    private static Integer maxSpeed;
+    private static Integer yearOfManufacture;
 
-    public Car(String nameCar, String nameOfModel, String colorCar, int maxSpeed, int yearOfManufacture) {
+    public Car(String nameCar, String nameOfModel, String colorCar, Integer maxSpeed, Integer yearOfManufacture) {
         this.nameCar = nameCar;
         this.nameOfModel = nameOfModel;
         this.colorCar = colorCar;
@@ -55,7 +54,7 @@ public class Car implements Cloneable {
         this.colorCar = colorCar;
     }
 
-    public int getMaxSpeed() {
+    public Integer getMaxSpeed() {
         return maxSpeed;
     }
 
@@ -63,7 +62,7 @@ public class Car implements Cloneable {
         this.maxSpeed = maxSpeed;
     }
 
-    public int getYearOfManufacture() {
+    public Integer getYearOfManufacture() {
         return yearOfManufacture;
     }
 
@@ -71,4 +70,3 @@ public class Car implements Cloneable {
         this.yearOfManufacture = yearOfManufacture;
     }
 }
-
