@@ -17,9 +17,7 @@ public class RobotApplication {
                 if (i == 3) {
                     throw new RobotConnectionException("Close connection.");
                 }
-            } catch (RuntimeException ex) {
-                System.out.println("Error.");
-            }
+            } 
         }
     }
 }
